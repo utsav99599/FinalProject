@@ -103,33 +103,38 @@
 </head>
 <body id="LoginForm">
 <div class="container">
-    <center><h1 class="form-heading">Welcome</h1></center>
+    <center><h1 class="form-heading">New Contact</h1></center>
     <div class="login-form">
         <div class="main-div">
             <div class="panel">
-                <h2> Registration</h2>
+                <h2> Add your contact here: </h2>
             </div>
             <form action="/register" method="POST" id="Register">
                 <div class="form-group">
-                    <input id="firstname" type="text" class="form-control" placeholder="First Name"
+                    <input id="firstname" type="text" class="form-control" placeholder="Enter First Name"
                            name="firstname">
                 </div>
                 <div class="form-group">
-                    <input id="lastname" type="text" class="form-control" placeholder="Last Name"
+                    <input id="lastname" type="text" class="form-control" placeholder="Enter Last Name"
                            name="lastname">
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="username" placeholder="Email Address" name="username">
+                    <input type="email" class="form-control" id="username" placeholder="Enter Email Address" name="username">
 
                 </div>
 
                 <div class="form-group">
-                    <input type="password" class="form-control" id="password" placeholder="Enter a Password" name="password">
+                    <input type="HomePhone" class="form-control" id="home phone " placeholder="Enter Home Phone Number" name="Number">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" id="confirm_password" placeholder="Confirm Password" name="confirm_password">
+                    <input type="CellPhone" class="form-control" id="Cell Phone" placeholder="Enter Cell Phone Number" name="CellNumber">
                 </div>
-                <button type="submit" class="btn btn-primary">Register</button>
+
+                <div class="form-group">
+                    <input type="addy_street" class="form-control" id="address_street" placeholder="Enter Address" name="Address">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Save Contact</button>
 
             </form>
         </div>
