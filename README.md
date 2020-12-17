@@ -10,16 +10,16 @@ In the project we created a login, registration, a page where a user can save co
 
 ## Screenshots:
 Login Page:
-<img src=" " alt="Login" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/utsav99599/FinalProject/master/ScreenShots/Login%20Page.JPG " alt="Login" style="max-width:100%;">
 
 Registration Page:
-<img src=" " alt="register" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/utsav99599/FinalProject/master/ScreenShots/Registration%20Page.JPG " alt="register" style="max-width:100%;">
 
 Contact Page:
-<img src=" " alt="contact" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/utsav99599/FinalProject/master/ScreenShots/Create%20New%20Contact%20Page.JPG" alt="contact" style="max-width:100%;">
 
 Confirmation Page:
-<img src=" " alt="confirmation" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/utsav99599/FinalProject/master/ScreenShots/Save%20Contact.JPG " alt="confirmation" style="max-width:100%;">
 
 
 ## Feature description of the application:
