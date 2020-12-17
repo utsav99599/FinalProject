@@ -30,6 +30,7 @@ Login - Input email and password.
 
 Contact Page - This page displays where an user can input contact info that they want to save
 
+Confirmation Page - User see confirmation that their contact was saved and has the option to add another one.
 ## Task Allocation:
 
 Utsav Patel - Worked on Login, Registration, CSS  
