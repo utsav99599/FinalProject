@@ -1,6 +1,6 @@
 <body id="LoginForm">
  <style>
-        /* Coded with love by Mutiullah Samim */
+
         body#LoginForm {
             background-image: url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg");
             background-repeat: no-repeat;
@@ -98,12 +98,12 @@
 
 
 <div class="container">
-    <h1 class="form-heading">Check Point</h1>
+    <h1 class="form-heading">Checking Point</h1>
     <div class="login-form">
         <div class="main-div">
             <div class="panel">
                 <h2>Login</h2>
-                <p>Please enter your email and password</p>
+                <p>Enter your email address and password</p>
             </div>
 
             <form action="{{ url_for('login') }}" method="post" id="Login">
@@ -115,12 +115,12 @@
                     <input type="password" name="password" placeholder="Password" id="password" required
                            class="form-control">
                 </div>
-                <div class="msg">{{ msg }}</div>
+
                 <input type="submit" value="Login" class="btn btn-primary">
             </form>
             <div class="mt-4">
                 <div class="d-flex justify-content-center links">
-                    Don't have an account? <a href="/register" class="ml-2">Sign Up</a>
+                    Sign-up an account? <a href="/register" class="ml-2">Sign Up</a>
                 </div>
             </div>
         </div>
