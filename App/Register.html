@@ -64,9 +64,9 @@
         }
 
         .login-form .btn.btn-primary {
-            background: #f04e4e none repeat scroll 0 0;
+            background: #e28f54 none repeat scroll 0 0;
             border-color: #f04e4e;
-            color: #ffffff;
+            color: #6d2727;
             font-size: 14px;
             width: 100%;
             height: 50px;
@@ -95,7 +95,7 @@
         }
 
         .back a {
-            color: #444444;
+            color: #f6f6f6;
             font-size: 13px;
             text-decoration: none;
         }
@@ -103,39 +103,34 @@
 </head>
 <body id="LoginForm">
 <div class="container">
-    <center><h1 class="form-heading">New Contact</h1></center>
+    <center><h1 class="form-heading">Welcome</h1></center>
     <div class="login-form">
         <div class="main-div">
             <div class="panel">
-                <h2> Add your contact here: </h2>
+                <h2> Registration</h2>
             </div>
             <form action="/register" method="POST" id="Register">
                 <div class="form-group">
-                    <input id="firstname" type="text" class="form-control" placeholder="Enter First Name"
+                    <input id="firstname" type="text" class="form-control" placeholder="First Name"
                            name="firstname">
                 </div>
                 <div class="form-group">
-                    <input id="lastname" type="text" class="form-control" placeholder="Enter Last Name"
+                    <input id="lastname" type="text" class="form-control" placeholder="Last Name"
                            name="lastname">
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="username" placeholder="Enter Email Address" name="username">
+                    <input type="email" class="form-control" id="username" placeholder="Email Address" name="username">
 
                 </div>
 
                 <div class="form-group">
-                    <input type="HomePhone" class="form-control" id="home phone " placeholder="Enter Home Phone Number" name="Number">
+                    <input type="password" class="form-control" id="password" placeholder="Enter a Password" name="password">
                 </div>
                 <div class="form-group">
-                    <input type="CellPhone" class="form-control" id="Cell Phone" placeholder="Enter Cell Phone Number" name="CellNumber">
+                    <input type="password" class="form-control" id="confirm_password" placeholder="Confirm Password" name="confirm_password">
                 </div>
-
-                <div class="form-group">
-                    <input type="addy_street" class="form-control" id="address_street" placeholder="Enter Address" name="Address">
-                </div>
-
-                <button> <a href="confirmation.html" class="ml-2">Save Contact</a> </button>
-
+                <button> <a href="contacts.html" class="ml-2">Register Account</a> </button>
+                <a href="index.html" class="ml-2">Login</a>
             </form>
         </div>
     </div>

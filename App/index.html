@@ -1,11 +1,5 @@
-<html>
-<head>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <style>
+<body id="LoginForm">
+ <style>
         body#LoginForm {
             background-image: url("http://www.pngmagic.com/product_images/marigold-color-solid-color-background.jpg");
             background-repeat: no-repeat;
@@ -15,25 +9,25 @@
         }
 
         .form-heading {
-            color: #ffffff;
+            color: #fff;
             font-size: 23px;
         }
 
         .panel h2 {
-            color: #444444;
+            color: #ffffff;
             font-size: 18px;
             margin: 0 0 8px 0;
         }
 
         .panel p {
-            color: #777777;
+            color: #ffffff;
             font-size: 14px;
             margin-bottom: 30px;
             line-height: 24px;
         }
 
         .login-form .form-control {
-            background: #ffffff none repeat scroll 0 0;
+            background: #f7f7f7 none repeat scroll 0 0;
             border: 1px solid #ffffff;
             border-radius: 4px;
             font-size: 14px;
@@ -80,13 +74,13 @@
         }
 
         .botto-text {
-            color: #f8db68;
+            color: #ffffff;
             font-size: 14px;
             margin: auto;
         }
 
         .login-form .btn.btn-primary.reset {
-            background: #ff0000 none repeat scroll 0 0;
+            background: #ff9900 none repeat scroll 0 0;
         }
 
         .back {
@@ -100,47 +94,36 @@
             text-decoration: none;
         }
     </style>
-</head>
-<body id="LoginForm">
+
+
 <div class="container">
-    <center><h1 class="form-heading">New Contact</h1></center>
+    <center><h1 class="form-heading">My Contact Page</h1></center>
     <div class="login-form">
         <div class="main-div">
             <div class="panel">
-                <h2> Add your contact here: </h2>
+                <h2>Login to see your contacts </h2>
+                <p>Enter your email Address and password</p>
             </div>
-            <form action="/register" method="POST" id="Register">
-                <div class="form-group">
-                    <input id="firstname" type="text" class="form-control" placeholder="Enter First Name"
-                           name="firstname">
-                </div>
-                <div class="form-group">
-                    <input id="lastname" type="text" class="form-control" placeholder="Enter Last Name"
-                           name="lastname">
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="username" placeholder="Enter Email Address" name="username">
 
-                </div>
-
+            <form action="{{ url_for('login') }}" method="post" id="Login">
                 <div class="form-group">
-                    <input type="HomePhone" class="form-control" id="home phone " placeholder="Enter Home Phone Number" name="Number">
+                    <input type="text" name="email" placeholder="E-mail" id="email" required
+                           class="form-control">
                 </div>
                 <div class="form-group">
-                    <input type="CellPhone" class="form-control" id="Cell Phone" placeholder="Enter Cell Phone Number" name="CellNumber">
+                    <input type="password" name="password" placeholder="Password" id="password" required
+                           class="form-control">
                 </div>
-
-                <div class="form-group">
-                    <input type="addy_street" class="form-control" id="address_street" placeholder="Enter Address" name="Address">
-                </div>
-
-                <button> <a href="confirmation.html" class="ml-2">Save Contact</a> </button>
-
+                <input type="submit" value="Login" class="btn btn-primary">
             </form>
+            <div class="mt-4">
+                <div class="d-flex justify-content-center links">
+                    Sign-Up an account? <a href="Register.html" class="ml-2">Sign Up</a>
+                </div>
+            </div>
         </div>
     </div>
+    </div>
 </div>
-</div>
-<div class="container">
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
+</body>
+</html>
