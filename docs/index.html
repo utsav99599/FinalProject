@@ -105,7 +105,7 @@
                 <p>Enter your email Address and password</p>
             </div>
 
-            <form action="contacts.html" method="post" id="Login">
+            <form action="{{ url_for('login') }}" method="post" id="Login">
                 <div class="form-group">
                     <input type="text" name="email" placeholder="E-mail" id="email" required
                            class="form-control">
@@ -114,7 +114,7 @@
                     <input type="password" name="password" placeholder="Password" id="password" required
                            class="form-control">
                 </div>
-                <input type="submit" value="Login" class="btn btn-primary">
+                <button> <a href="contacts.html" class="ml-2">Login</a> </button>
             </form>
             <div class="mt-4">
                 <div class="d-flex justify-content-center links">
